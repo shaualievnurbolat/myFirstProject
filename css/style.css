@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #626467;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  color: #626467;
+  background-color: #323437;
+}
+
+.input_area {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #2C2E31;
+  color: #626467;
+  height: 80px;
+  width: 40%;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 15px;
+  padding: 20px;
+  border: 0px;
+  border-radius: 7px;
+}
+
+.wrapper {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  margin-top: 40px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.status div {
+  background-color: #2C2E31;
+  width: 100px;
+  height: 70px;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.status div span {
+  display: block;
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.timeContent {
+  margin-top: 5px;
+  height: 30px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  color: #626467;
+  outline: none;
+}
+
+.incorrect_char {
+  color: red;
+  text-decoration: underline;
+}
+
+.correct_char {
+  color: darkgreen;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.cpm {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wpm {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.accuracyy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */

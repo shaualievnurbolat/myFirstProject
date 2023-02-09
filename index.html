@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>typingtest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <h1>Speed Typing</h1>
+        <div class="status">
+            <div class="error">errors<span class="errors">0</span></div>
+            <div class="time">time<input type="number" class="timeContent"></div>
+            <div class="accuracyy">%accuracy<span class="accuracy">100</span></div>
+            <div class="wpm">WPM<span class="wpmContent">100</span></div>
+        </div>
+        <div class="text">
+            Нажмите на кнопку чтобы начать тестирование
+        </div>
+        <textarea class="input_area" placeholder="start typing here..." oninput="processCheck(); order()"
+        onfocus="startGame()"></textarea>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
